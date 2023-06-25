@@ -1,0 +1,26 @@
+{
+  "extensions": ["svelte"],
+  "overrides": [
+    {
+      "files": ["src/**/*.svelte"],
+      "processor": "svelte3/svelte3",
+      "parser": "./node_modules/xo/node_modules/@typescript-eslint/parser",
+      "rules": {
+        "no-multiple-empty-lines": [
+          "error",
+          { "max": 1, "maxBOF": 2, "maxEOF": 0 }
+        ]
+      },
+      "rules": {
+        "no-multiple-empty-lines": [
+          "error",
+          { "max": 1, "maxBOF": 2, "maxEOF": 0 }
+        ]
+      },
+      "settings": {
+        "svelte3/typescript": true
+      },
+      "plugins": ["svelte3"]
+    }
+  ]
+}

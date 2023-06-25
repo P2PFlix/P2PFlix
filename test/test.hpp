@@ -1,3 +1,0 @@
-#include <string>
-
-const std::string magUrl = "magnet:?xt=urn:btih:08ada5a7a6183aae1e09d831df6748d566095a10&dn=Sintel&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337&tr=udp%3a%2f%2fexplodie.org%3a6969&tr=udp%3a%2f%2ftracker.empire-js.us%3a1337&tr=wss%3a%2f%2ftracker.btorrent.xyz&tr=wss%3a%2f%2ftracker.openwebtorrent.com&tr=wss%3a%2f%2ftracker.fastcast.nz&ws=https%3a%2f%2fwebtorrent.io%2ftorrents%2f";

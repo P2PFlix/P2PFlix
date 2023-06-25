@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
     "allowJs": true,
+    "composite": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "checkJs": true,
-    "composite": true,
     "emitDecoratorMetadata": true,
     "esModuleInterop": true,
     "exactOptionalPropertyTypes": true,
@@ -19,7 +19,7 @@
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "dist",
+    "outDir": "out",
     "verbatimModuleSyntax": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
@@ -28,5 +28,5 @@
     "target": "ESNext",
     "useDefineForClassFields": true
   },
-  "exclude": ["dist", "build", "lib"]
+  "exclude": ["out"]
 }
