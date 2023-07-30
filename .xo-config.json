@@ -2,7 +2,7 @@
   "extensions": ["svelte"],
   "overrides": [
     {
-      "files": ["src/**/*.svelte"],
+      "files": ["**/*.svelte"],
       "processor": "svelte3/svelte3",
       "parser": "./node_modules/xo/node_modules/@typescript-eslint/parser",
       "rules": {
